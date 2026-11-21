@@ -1,0 +1,32 @@
+{
+  "articles": [
+    {
+      "date": "2026-11-21",
+      "demo": true,
+      "source": "학습용 예시 (실제 뉴스 아님)",
+      "url": "https://www.bbc.com/news/business",
+      "title_en": "How Do Interest Rates Affect Everyday Life?",
+      "title_ko": "금리는 우리의 일상에 어떤 영향을 줄까?",
+      "sentences": [
+        {"en":"Interest rates affect the cost of borrowing money.","ko":"금리는 돈을 빌리는 비용에 영향을 줍니다."},
+        {"en":"When interest rates rise, loans can become more expensive.","ko":"금리가 오르면 대출 비용이 더 비싸질 수 있습니다."},
+        {"en":"People may spend less money when borrowing costs increase.","ko":"대출 비용이 늘어나면 사람들은 지출을 줄일 수 있습니다."},
+        {"en":"Businesses also consider interest rates when making investments.","ko":"기업들도 투자할 때 금리를 고려합니다."},
+        {"en":"Central banks use interest rates to influence the economy.","ko":"중앙은행은 경제에 영향을 주기 위해 금리를 활용합니다."},
+        {"en":"Understanding interest rates helps us read economic news.","ko":"금리를 이해하면 경제 뉴스를 읽는 데 도움이 됩니다."}
+      ],
+      "words": [
+        {"en":"interest rate","ko":"금리"},
+        {"en":"borrow","ko":"빌리다"},
+        {"en":"loan","ko":"대출"},
+        {"en":"investment","ko":"투자"},
+        {"en":"central bank","ko":"중앙은행"}
+      ],
+      "quiz": [
+        {"question":"interest rate의 뜻은 무엇일까요?","options":["환율","금리","실업률","주가"],"answer":1,"explanation":"interest rate는 돈을 빌리거나 예금할 때 적용되는 금리예요."},
+        {"question":"금리가 오르면 대출 비용은 일반적으로 어떻게 될까요?","options":["더 비싸질 수 있어요","반드시 0원이 돼요","항상 낮아져요","영향이 전혀 없어요"],"answer":0,"explanation":"금리 상승은 변동금리 대출 등의 이자 부담을 높일 수 있어요."},
+        {"question":"중앙은행은 금리를 왜 활용할까요?","options":["날씨를 조절하려고","언어를 바꾸려고","경제에 영향을 주려고","달력을 만들려고"],"answer":2,"explanation":"중앙은행은 물가와 경기 등에 영향을 주기 위해 정책금리를 조정해요."}
+      ]
+    }
+  ]
+}
