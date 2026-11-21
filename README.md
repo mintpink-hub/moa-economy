@@ -1,19 +1,17 @@
-# Moa Economy ♡
+# Moa Economy v1.1
 
-Free static English economics study notebook. No paid APIs, AI, or login.
+GitHub Pages용 무료 개인 경제 영어 공부 사이트입니다.
 
-## Deploy
+## 설치
+압축을 푼 뒤 **moa-economy-v1.1 폴더 안의 파일** (`index.html`, `news.json`, `update_news.py`, `.github` 등)을 GitHub 저장소 **최상위 경로**에 올려 주세요.
 
-1. Unzip the archive.
-2. Upload **the files inside** `moa-economy` (including hidden `.github` folder) to the **root** of your GitHub repository, replacing old files as needed.
-3. In GitHub Settings > Pages, select Deploy from a branch, `main`, `/ (root)`.
-4. In Actions, run **Update BBC Business headlines** once via **Run workflow**. Daily cron is best-effort and may be delayed. In repository Settings > Actions > General, ensure workflow permissions allow writing contents if needed.
-5. Open your GitHub Pages site. If headlines are unavailable, article paste and studying still work.
+## 개선 사항
+- 문장 체크 시 화면 하단에 고정 편집 메뉴 표시, 메뉴 접기/펼치기
+- 연속 문장 합치기, 가위 위치 선택 나누기
+- 기사별 한 줄 요약 자동 저장
+- 달력 날짜 선택 시 기사 제목/요약/단어 개수, 공부 노트 이동
+- 단어장 개별 삭제 및 선택 삭제 (암기 완료 체크와 분리)
+- 기존 localStorage 저장 키 및 JSON 백업 구조 유지
 
-## Study
-
-Paste an article and click split. Select consecutive sentence checkboxes and merge; select one and click split, then click a scissors marker between words and apply. Translations and vocabulary are stored in browser localStorage, per date. Back up via JSON export; importing overwrites the current local database.
-
-## Notes
-
-Only BBC RSS titles, snippets and links are published. Full articles are manually pasted for personal study and stored locally in the browser. No full article is uploaded to GitHub. The sentence splitter is heuristic, so abbreviations may require manual editing. When splitting, existing translation and vocabulary remain with the first half for manual adjustment. Records are per browser/device; no automatic sync. Browser popup restrictions may open translation in a tab.
+## 주의
+배포 전 기존 홈페이지에서 JSON 백업을 다운로드하세요. 같은 브라우저·같은 URL에서는 기존 저장 기록을 이어 사용하도록 설계되었습니다. 저장 데이터는 기기 간 자동 동기화되지 않습니다. BBC RSS는 기사 제목·소개·링크만 가져오며 기사 전문은 사용자가 붙여넣습니다.
