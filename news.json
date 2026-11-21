@@ -1,12 +1,1 @@
-{
-  "articles": [
-    {
-      "date": "2026-11-21",
-      "source": "BBC News · Business",
-      "title": "Welcome to your economy English notebook",
-      "summary": "This is a sample entry. Run the GitHub Actions workflow to fetch a real BBC Business headline and short RSS description.",
-      "url": "https://www.bbc.com/news/business",
-      "demo": true
-    }
-  ]
-}
+{"articles":[]}
